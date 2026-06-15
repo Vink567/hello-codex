@@ -8,56 +8,77 @@
   </head>
   <body>
     <main class="page">
+      <div class="aurora aurora-one" aria-hidden="true"></div>
+      <div class="aurora aurora-two" aria-hidden="true"></div>
       <div class="tech-grid" aria-hidden="true"></div>
-      <section class="title-panel" aria-label="你好，Codex">
-        <span class="corner corner-top-left" aria-hidden="true"></span>
-        <span class="corner corner-top-right" aria-hidden="true"></span>
 
-        <p class="eyebrow">系统已上线</p>
-        <h1>你好，Codex。</h1>
-        <p class="intro">构建利落的界面，验证产品想法，把一个小灵感变成可以继续迭代的数字体验。</p>
+      <section class="hero" aria-label="你好，Codex">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>系统已上线</p>
+          <h1>你好，Codex。</h1>
+          <p class="intro">把灵感整理成清晰的产品原型，用更漂亮、更轻盈的视觉语言开启下一次迭代。</p>
+
+          <div class="actions" aria-label="页面操作">
+            <a class="button button-primary" href="#features">查看亮点</a>
+            <a class="button button-ghost" href="#status">运行状态</a>
+          </div>
+        </div>
+
+        <aside class="glass-card" aria-label="实时面板">
+          <div class="card-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <strong>Codex Console</strong>
+          </div>
+          <div class="code-lines" aria-hidden="true">
+            <span style="--w: 78%"></span>
+            <span style="--w: 52%"></span>
+            <span style="--w: 88%"></span>
+            <span style="--w: 64%"></span>
+          </div>
+          <div class="pulse-orb" aria-hidden="true"></div>
+          <p>设计、构建、预览，一次完成。</p>
+        </aside>
 
         <div class="signal-list" aria-label="核心状态">
           <span>智能就绪</span>
           <span>快速预览</span>
           <span>界面清爽</span>
         </div>
+      </section>
 
-        <div class="feature-grid">
-          <article>
-            <span class="feature-code">01</span>
-            <h2>原型构建</h2>
-            <p>将想法转化为结构清晰、动效克制的可用界面。</p>
-          </article>
-          <article>
-            <span class="feature-code">02</span>
-            <h2>界面设计</h2>
-            <p>打造深色未来感视觉系统，同时保持清晰易读与稳定克制。</p>
-          </article>
-          <article>
-            <span class="feature-code">03</span>
-            <h2>轻量发布</h2>
-            <p>保持页面轻快、响应式友好，并为下一轮迭代留好空间。</p>
-          </article>
+      <section id="features" class="feature-grid" aria-label="功能亮点">
+        <article>
+          <span class="feature-code">01</span>
+          <h2>原型构建</h2>
+          <p>将想法转化为结构清晰、动效克制的可用界面。</p>
+        </article>
+        <article>
+          <span class="feature-code">02</span>
+          <h2>界面设计</h2>
+          <p>使用柔和渐变、玻璃拟态与细腻层次，提升第一眼质感。</p>
+        </article>
+        <article>
+          <span class="feature-code">03</span>
+          <h2>轻量发布</h2>
+          <p>保持页面轻快、响应式友好，并为下一轮迭代留好空间。</p>
+        </article>
+      </section>
+
+      <section id="status" class="status-bar" aria-label="项目状态">
+        <div>
+          <strong>100%</strong>
+          <span>静态页面</span>
         </div>
-
-        <div class="status-bar" aria-label="项目状态">
-          <div>
-            <strong>100%</strong>
-            <span>静态页面</span>
-          </div>
-          <div>
-            <strong>0ms</strong>
-            <span>零配置</span>
-          </div>
-          <div>
-            <strong>24/7</strong>
-            <span>持续在线</span>
-          </div>
+        <div>
+          <strong>0ms</strong>
+          <span>零配置</span>
         </div>
-
-        <span class="corner corner-bottom-left" aria-hidden="true"></span>
-        <span class="corner corner-bottom-right" aria-hidden="true"></span>
+        <div>
+          <strong>24/7</strong>
+          <span>持续在线</span>
+        </div>
       </section>
     </main>
   </body>
